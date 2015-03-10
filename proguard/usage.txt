@@ -1,0 +1,31 @@
+photopuzzle.wxf.ClipBmpView:
+    54:54:public void setBmp()
+photopuzzle.wxf.ContentAdapter:
+    private android.graphics.Bitmap tmpBmp
+photopuzzle.wxf.GameLogic:
+    public int width
+    public int height
+    public static final int UP
+    public static final int DOWN
+    public static final int LEFT
+    public static final int RIGHT
+    public static final int NONE
+    int key
+photopuzzle.wxf.ListContent:
+    public android.graphics.Bitmap bmp
+photopuzzle.wxf.R
+photopuzzle.wxf.R$attr
+photopuzzle.wxf.R$drawable
+photopuzzle.wxf.R$id
+photopuzzle.wxf.R$layout
+photopuzzle.wxf.R$string
+photopuzzle.wxf.photoPuzzleActivity:
+    public static final int PROGRAM
+    public static final int CAMERAL
+    public static final int FILESYSTEM
+    public static final int MENUVIEW
+    public static final int SETTINGVIEW
+    public static final int SCOREVIEW
+    public static final int ABOUTVIEW
+    public static final int GAMEVIEW
+    public static final int CLIPBMPVIEW

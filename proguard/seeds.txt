@@ -1,0 +1,2 @@
+photopuzzle.wxf.photoPuzzleActivity
+photopuzzle.wxf.photoPuzzleActivity: void onClick(android.view.View)

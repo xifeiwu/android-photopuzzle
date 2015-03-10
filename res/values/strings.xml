@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, PHOTOPUZZLE_GREENActivity!</string>
+    <string name="app_name">拍照拼图</string>
+    <string name="start">开 始</string>
+    <string name="set">设 置</string>
+    <string name="score">成 绩</string>
+    <string name="about">关 于</string>
+    <string name="exit">退 出</string>
+    
+    
+    <string name="setting">设置</string>
+    <string name="textview_puzzletype">1.图片来源</string>
+    <string name="program_str">程序自带</string>
+    <string name="filesystem_str">文件系统</string>
+    <string name="cameral_str">相机</string>
+    
+    <string name="ok_str">确定</string>
+    <string name="score_str">成绩排行榜</string>
+    
+    <string name="about_title">拍照拼图</string>
+    <string name="about_content1"></string>
+    <string name="about_content2"></string>
+    
+
+</resources>

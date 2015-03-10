@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/menubg"
+    android:orientation="vertical" >
+
+    <Button
+        android:id="@+id/startbtn"
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:textSize="18dp"
+        android:text="@string/start" />
+
+    <Button
+        android:id="@+id/setbtn"
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:layout_alignLeft="@id/startbtn"
+        android:layout_below="@id/startbtn"
+        android:layout_marginTop="20dp"
+        android:textSize="18dp"
+        android:text="@string/set" />
+
+    <Button
+        android:id="@+id/scorebtn"
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:layout_alignLeft="@id/startbtn"
+        android:layout_below="@id/setbtn"
+        android:layout_marginTop="20dp"
+        android:textSize="18dp"
+        android:text="@string/score" />
+
+    <Button
+        android:id="@+id/aboutbtn"
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:layout_alignLeft="@id/startbtn"
+        android:layout_below="@id/scorebtn"
+        android:layout_marginTop="20dp"
+        android:textSize="18dp"
+        android:text="@string/about" />
+
+    <Button
+        android:id="@+id/exitbtn"
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:layout_alignLeft="@id/startbtn"
+        android:layout_below="@id/aboutbtn"
+        android:layout_marginTop="20dp"
+        android:textSize="18dp"
+        android:visibility="invisible"
+        android:clickable="false"
+        android:text="@string/exit" />
+
+</RelativeLayout>
